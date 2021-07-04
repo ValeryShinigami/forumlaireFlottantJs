@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.premier, .deuxieme, .troisieme, .quatrieme{
+    
+    
+    position: relative;
+}
+
+.premier{
+    left: 0px;
+    background-color: lightgray;
+    visibility: hidden;
+}
+.quatrieme{
+    background-color: lightgray;
+    visibility: hidden;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#container2{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.soum{
+    margin-left: 420px;
+    width: 100px;
+    height: 50px;
+}
+
+
+.login{
+   margin-right: 420px;
+   width: 100px;
+}
